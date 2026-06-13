@@ -12,6 +12,8 @@ import Contact from './menubar/Contact'
 import About from './menubar/About'
 import { Home } from './menubar/Home'
 import Service from './menubar/Service'
+import Register from "./Register";
+import BookTicket from "./BookTicket";
 
 
 function App() {
@@ -28,7 +30,8 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/service" element={<Service/>}/>
-
+          <Route path="/register" element={<Register/>}/>
+          <Route path="/bookticket" element={<BookTicket/>}/>
         </Routes>
       </BrowserRouter>
       
